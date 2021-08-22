@@ -57,9 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
   var _resultado = "Escolha entre Papel, pedra ou tesoura";
 
   void selected(int btn) {
-    var escolhaPc = Random().nextInt(2);
+    var escolhaPc = Random().nextInt(3);
     var result = "";
-    print("Clicou");
     if (btn == 0) {
       switch (escolhaPc) {
         case 0:
